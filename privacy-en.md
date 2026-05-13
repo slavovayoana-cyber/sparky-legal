@@ -1,5 +1,7 @@
 # Privacy Policy
 
+🇬🇧 **English** · [🇧🇬 Български](./privacy-bg)
+
 **Last updated: May 13, 2026**
 **Effective: May 13, 2026**
 

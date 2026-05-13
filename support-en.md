@@ -1,5 +1,7 @@
 # Sparky Kids — Support
 
+🇬🇧 **English** · [🇧🇬 Български](./support-bg)
+
 We're here to help! Sparky Kids is built by a small independent team and we read every email personally.
 
 ---
