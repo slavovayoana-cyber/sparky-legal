@@ -2,8 +2,8 @@
 
 🇬🇧 **English** · [🇧🇬 Български](./privacy-bg)
 
-**Last updated: May 13, 2026**
-**Effective: May 13, 2026**
+**Last updated: July 12, 2026**
+**Effective: July 12, 2026**
 
 This Privacy Policy describes how the Sparky Kids application ("Sparky", "the App", "we", "us") handles information when you and your child use it. We've designed Sparky to be a **fully offline app** that keeps your family's data on your own device.
 
@@ -11,10 +11,10 @@ This Privacy Policy describes how the Sparky Kids application ("Sparky", "the Ap
 
 ## TL;DR
 
-- **Sparky does not collect, transmit, store, sell, or share any personal data with anyone.** Period.
 - All information your child or you enter (names, tasks, stars, streaks, rewards, etc.) is stored **only on your device** and never leaves it.
-- We have no servers. We have no analytics. We have no advertisers.
-- The App works fully offline and does not require an account or login.
+- We collect **anonymous, non-personal usage analytics** (e.g. "a task was completed") to understand how the App is used and improve it. No names, no identifiers, no personal data.
+- We have no advertisers. The App requires no account or login.
+- Analytics data is processed by PostHog on EU servers and is never sold or used for advertising.
 
 ---
 
@@ -30,15 +30,14 @@ Sparky Kids is developed by an independent developer.
 We do not collect, request, or have access to any of the following:
 
 - Names, email addresses, phone numbers, or any contact information
-- IP addresses, device identifiers, advertising identifiers, or any identifiers that could be linked to you
+- IP addresses, advertising identifiers, or any identifiers that could be linked to a specific person
 - Geographic or precise location data
 - Photos, contacts, microphone audio, or any other on-device content outside the App
 - Health, fitness, financial, or biometric data
-- Browsing history, search history, or app usage analytics
-- Crash logs, diagnostic data, or performance metrics
-- Any data about your child's identity beyond what stays on your device
+- Browsing history, search history, or the content of your child's tasks, names, or rewards
+- Any data about your child's identity
 
-We do not use any third-party analytics, tracking, advertising, or telemetry services.
+We do not use advertising, attribution, or third-party tracking services.
 
 ---
 
@@ -94,9 +93,28 @@ If you are a parent or guardian and believe that we have somehow obtained person
 
 ## 6. Third-Party Services
 
-Sparky is built on the React Native and Expo open-source frameworks, and uses Apple's standard iOS frameworks (ActivityKit for Live Activities, UserNotifications for local notifications, AsyncStorage for local data). **None of these frameworks transmit your data to us or to any third party as part of how we use them in the App.**
+Sparky is built on the React Native and Expo open-source frameworks, and uses Apple's standard iOS frameworks (ActivityKit for Live Activities, UserNotifications for local notifications, AsyncStorage for local data). None of these frameworks transmit your data to us or to any third party as part of how we use them in the App.
 
-We do not embed any third-party analytics SDK (e.g., no Google Analytics, no Facebook SDK, no Firebase Analytics, no Sentry, no Mixpanel, no Amplitude, no AppsFlyer), advertising SDK, attribution SDK, or telemetry framework.
+### Analytics — PostHog
+
+We use **PostHog** (posthog.com) to collect anonymous usage analytics. This helps us understand how families use the App and identify areas for improvement.
+
+**What is sent to PostHog:**
+- Anonymous in-app events such as: app opened, task completed, timer started/completed, reward redeemed, onboarding step viewed
+- App version and platform (iOS / Android)
+- A randomly generated anonymous session identifier (not linked to any personal identity)
+
+**What is NOT sent to PostHog:**
+- Your child's name, age, or any entered content
+- Task titles, reward names, or any text you have typed
+- Any identifier that can be linked to a specific person or device
+- Location data
+
+PostHog data is processed on servers located in the **European Union** and is governed by PostHog's privacy policy (posthog.com/privacy). We do not sell this data, use it for advertising, or share it with any party other than PostHog for the purpose of providing the analytics service.
+
+You may request deletion of analytics data associated with your anonymous session by contacting us at sparkykidsapp@gmail.com.
+
+We do not embed advertising SDKs, attribution SDKs, or any other telemetry framework.
 
 ---
 
